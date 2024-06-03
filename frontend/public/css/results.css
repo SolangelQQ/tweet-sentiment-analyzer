@@ -1,0 +1,25 @@
+main {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: salmon;
+}
+
+#lista-sentimientos {
+    margin: 3rem 0;
+}
+
+#lista-sentimientos div {
+    border: 1px solid salmon;
+    box-shadow: 0 0 10px salmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+    font-size: 2rem;
+}
+
+#lista-sentimientos div:hover {
+    background-color: salmon;
+    color: white;
+}

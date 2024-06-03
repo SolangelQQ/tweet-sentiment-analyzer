@@ -1,0 +1,33 @@
+#tweetForm {
+    margin: 3rem;
+}
+
+main {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: salmon;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button {
+    background-color: salmon;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: white;
+    border: unset;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+#tweet {
+    border-radius: 2rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}

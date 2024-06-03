@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/historicalData.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Te damos la bienvenida a Tweet Sentiment Analyzer</h1>
+            <a id="signup" href="../../index.html">Cerrar sesión</a>
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <a href="home.html"><li>Inicio</li></a>
+                <a href="tweetAnalysis.html"><li>Análisis de Tweets</li></a>
+                <a href="results.html"><li>Resultados</li></a>
+                <a href="historicalData.html"><li>Datos históricos</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Data Visualization</h1>
+        <div id="data-visualization">
+            <div>
+                <h2>Pie Chart</h2>
+                <canvas id="pieChart"></canvas>
+            </div>
+            <div>
+                <h2>Line Chart</h2>
+                <canvas id="lineChart"></canvas>
+            </div>
+        </div>
+    </main>
+    <script src="../js/historicalData.js"></script>
+    
+</body>
+</html>

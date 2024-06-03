@@ -1,0 +1,14 @@
+[
+    {
+        "tweet": "Today has been a good day. Nothing seems to be going right.",
+        "sentiment": 0
+    },
+    {
+        "tweet": "I'm so excited for my upcoming vacation! Can't wait to relax on the beach and enjoy some sunshine.",
+        "sentiment": 4
+    },
+    {
+        "tweet": "bad",
+        "sentiment": 0
+    }
+]

@@ -1,0 +1,17 @@
+#data-visualization {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main {
+    padding: 3rem;
+    color: salmon;
+}
+
+canvas {
+    height: 50vh;
+    width: 80vh;
+}

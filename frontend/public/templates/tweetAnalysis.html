@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/tweetAnalysys.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Te damos la bienvenida a Tweet Sentiment Analyzer</h1>
+            <a id="signup" href="../../index.html">Cerrar sesión</a>
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <a href="home.html"><li>Inicio</li></a>
+                <a href="tweetAnalysis.html"><li>Análisis de Tweets</li></a>
+                <a href="results.html"><li>Resultados</li></a>
+                <a href="historicalData.html"><li>Datos históricos</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Analizar un Tweet</h1>
+        <div>
+            <form id="tweetForm">
+                <textarea id="tweet" rows="4" cols="50" placeholder="Enter your tweet here..."></textarea><br>
+                <button type="submit">Analyze Sentiment</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </main>
+    <script src="../js/tweetAnalysys.js"></script>
+    
+</body>
+</html>
